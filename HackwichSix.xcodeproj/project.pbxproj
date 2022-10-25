@@ -15,6 +15,8 @@
 		755C7D1028F6334700EBF6FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755C7D0E28F6334700EBF6FF /* LaunchScreen.storyboard */; };
 		755C7D1B28F6334700EBF6FF /* HackwichSixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755C7D1A28F6334700EBF6FF /* HackwichSixTests.swift */; };
 		755C7D2628F6334700EBF6FF /* HackwichSixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755C7D2528F6334700EBF6FF /* HackwichSixUITests.swift */; };
+		75D93BF5290750DC00F271EA /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75D93BF4290750DC00F271EA /* Property List.plist */; };
+		75D93BF72907566D00F271EA /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D93BF62907566D00F271EA /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		755C7D2128F6334700EBF6FF /* HackwichSixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichSixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		755C7D2528F6334700EBF6FF /* HackwichSixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichSixUITests.swift; sourceTree = "<group>"; };
 		755C7D2728F6334700EBF6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D93BF4290750DC00F271EA /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		75D93BF62907566D00F271EA /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +106,10 @@
 				755C7D0328F6334600EBF6FF /* AppDelegate.swift */,
 				755C7D0528F6334600EBF6FF /* SceneDelegate.swift */,
 				755C7D0728F6334600EBF6FF /* ViewController.swift */,
+				75D93BF62907566D00F271EA /* detailViewController.swift */,
 				755C7D0928F6334600EBF6FF /* Main.storyboard */,
 				755C7D0C28F6334700EBF6FF /* Assets.xcassets */,
+				75D93BF4290750DC00F271EA /* Property List.plist */,
 				755C7D0E28F6334700EBF6FF /* LaunchScreen.storyboard */,
 				755C7D1128F6334700EBF6FF /* Info.plist */,
 			);
@@ -233,6 +239,7 @@
 			files = (
 				755C7D1028F6334700EBF6FF /* LaunchScreen.storyboard in Resources */,
 				755C7D0D28F6334700EBF6FF /* Assets.xcassets in Resources */,
+				75D93BF5290750DC00F271EA /* Property List.plist in Resources */,
 				755C7D0B28F6334600EBF6FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 				755C7D0828F6334600EBF6FF /* ViewController.swift in Sources */,
 				755C7D0428F6334600EBF6FF /* AppDelegate.swift in Sources */,
 				755C7D0628F6334600EBF6FF /* SceneDelegate.swift in Sources */,
+				75D93BF72907566D00F271EA /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = UHWO.HackwichSix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +473,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = UHWO.HackwichSix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
