@@ -9,8 +9,9 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var myFriendsArray = ["Britt", "Maya", "Akari"]
+    var myFriendsArray = ["Kapolei Kalapawai", "Kapolei Kalapawai", "Kapolei Kalapawai"]
     var friendsHomeArray = ["Kailua-Kona", "L.A.", "Tokyo"]
+    
     
     @IBOutlet var tableView: UITableView!
     
@@ -24,7 +25,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let path = Bundle.main.path(forResource: "Property List", ofType: "plist")
         let dict = NSDictionary(contentsOfFile: path!)
         
-        restaurantImageData = dict!.object(forKey: "restaurantImageData")as! [String]
+        restaurantImageData = dict!.object(forKey: "restaurantImages")as! [String]
     
     }
 
